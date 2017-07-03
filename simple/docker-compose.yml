@@ -8,7 +8,7 @@ services:
         - BUILDBOT_CONFIG_DIR=config
         - BUILDBOT_CONFIG_URL=https://github.com/rihabmechri/Test-buildbot-docker/archive/master.tar.gz
         - BUILDBOT_WORKER_PORT=9989
-        - BUILDBOT_WEB_URL=http://192.168.56.102:8010/
+        - BUILDBOT_WEB_URL=http://localhost:8010/
         - BUILDBOT_WEB_PORT=8010
     links:
       - db
